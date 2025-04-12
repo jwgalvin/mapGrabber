@@ -1,0 +1,10 @@
+{
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}/**",
+    "${workspaceFolder}/include",
+    "${workspaceFolder}/src",
+    "${workspaceFolder}/third_party"
+  ],
+  "C_Cpp.default.intelliSenseMode": "windows-gcc-x64",
+"C_Cpp.default.compilerPath": "C:/Program Files/MinGW/bin/g++.exe"
+}
