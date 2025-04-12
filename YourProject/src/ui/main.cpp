@@ -1,5 +1,5 @@
-#include "../../infrastructure/OpenStreetMapAdapter.hpp"
-#include "../domain/service/locationAnalyzer.hpp"
+#include "infrastructure/OpenStreetMapAdapter.hpp"
+#include "domain/service/locationAnalyzer.hpp"
 #include <iostream>
 
 int main() {
