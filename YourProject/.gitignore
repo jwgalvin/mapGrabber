@@ -6,3 +6,5 @@
 *.vcxproj*
 *.sln
 env.local
+libpostal.a
+libpostal/
