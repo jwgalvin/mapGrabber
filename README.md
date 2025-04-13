@@ -1,4 +1,4 @@
-# 🗘️ MapGrabber
+# 🖘️ MapGrabber
 
 A modern C++ project using **Domain-Driven Design (DDD)** principles to structure and eventually interact with mapping APIs (e.g. OpenStreetMap, Mapbox). This serves as a sandbox for experimenting with C++, architectural patterns, and real-world data integrations.
 
@@ -82,6 +82,12 @@ Or open the folder in File Explorer:
 explorer.exe .
 ```
 
+> ⚠️ **If you get a Git error about "dubious ownership" in WSL**, run this:
+
+```bash
+git config --global --add safe.directory /mnt/c/Users/<your-username>/mapGrabber
+```
+
 ---
 
 ### ✅ Step 5: Use WSL in VSCode
@@ -112,5 +118,13 @@ wsl g++ --version
 
 ---
 
+install this 'sudo apt install libcurl4-openssl-dev'
+
+
 You're now ready to develop C++ with Bash, Linux tools, and full Windows interoperability 🚀
 
+
+rm -rf build
+cmake -S . -B build
+cmake --build build
+./build/main
